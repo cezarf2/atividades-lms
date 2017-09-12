@@ -1,0 +1,90 @@
+body{
+    background: url("../img/gradient_bg.png") repeat-x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#header-title h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-nav a{
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff;
+    display: block;
+}
+
+a:hover{
+    color: blue;
+}
+
+article{
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    float: left;   
+}
+
+.article-noticia{
+    border-width: 1mm;
+    border-color: darkolivegreen;
+    border-style: dotted;
+    padding: 5mm;
+
+}
+
+.article-noticia p{
+    color: darkslategrey;
+    font-size: 14px;
+}
+
+.article-desenho{
+    border: 2px dashed darkcyan;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+
+.article-noticia, .article-desenho{
+    width: 20vw;
+    max-height: 120vh;
+}
+
+.article-video{
+    background: url("../img/gradient_bg.png") repeat-x;
+    border: 2mm double darkblue;
+    padding: 5mm;
+    width: 55vw;
+    height: 55vh;
+    clear: both;
+}
+
+.article-video iframe{
+    border: 0;
+    width: 45vw;
+    height: 45vh;
+}
+
+.article-form{
+    border: 2px solid darkslateblue;
+    padding: 5mm;
+    width: 56vw;
+    max-height: 55vh;
+}
+
+.article-form form input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    margin: 5px;
+}
+
