@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: FontAwesome;
+    src: url("../fonts/fontawesome.woff");
+}
+
+header{
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 37px;
+    color: #555555;
+    font-family: "FontAwesome";
+    letter-spacing: 3px;
+}
+
+header a span{
+    color: #4CAF50;
+}
+
+header h1{
+    display: inline-block;
+}
+
+header h2{
+    margin-top: 14px;
+    float: right;
+    font-size: 15px;
+}
+
+.font-uppercase{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.menu-horizontal li{
+    height: 27px;
+    float: left;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+
+}
+
+.menu-horizontal ul{
+    font-size: 17px;
+    list-style: none;
+}
+
+.menu-horizontal li:hover, .icons-right a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.menu-horizontal{
+    z-index: 4;
+    height: 57px;
+    background-color: #4CAF50;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icons-right a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons-right{
+    position: absolute;
+    right: 0;
+}
+
+.menu-vertical{
+    clear: both;
+    font-family: "Verdana",sans-serif;
+    padding: 15px 15px 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-vertical ul{
+    list-style: none;
+}
+
+.menu-vertical h4{
+    padding: 15px 0;
+    font-weight: normal;
+    font-size: 17px;
+}
