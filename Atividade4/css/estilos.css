@@ -14,7 +14,7 @@ header{
 
 header a{
     text-decoration: none;
-    font-size: 37px;
+    font-size: 34px;
     color: #555555;
     font-family: "FontAwesome";
     letter-spacing: 3px;
@@ -63,7 +63,7 @@ header h2{
     z-index: 4;
     height: 57px;
     background-color: #4CAF50;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .icons-right a{
@@ -77,10 +77,11 @@ header h2{
 }
 
 .menu-vertical{
+    width: 18vw;
     clear: both;
-    font-family: "Verdana",sans-serif;
-    padding: 15px 15px 0 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 15px 0 30px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .menu-vertical ul{
@@ -88,7 +89,17 @@ header h2{
 }
 
 .menu-vertical h4{
-    padding: 15px 0;
+    padding: 15px 0 15px 15px;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 20px;
+}
+
+.menu-vertical ul li{
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.menu-vertical ul li:hover{
+    background-color: #ccc;
 }
