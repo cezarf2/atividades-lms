@@ -62,7 +62,7 @@ header nav{
 .menu-vertical{
     position: fixed;
     overflow: auto;
-    z-index: -10;
+    z-index: 1;
     float: left;
 }
 
