@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+h1, h2, nav{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    background-color: #1ad1ff;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;    
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.panel{
+    width: 940px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 1px solid #1ad1ff;
+}
+
+.panel .panel-header{
+    background-color: #1ad1ff;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.panel .panel-header h2{
+    padding: 10px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.panel .panel-body{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.panel .panel-body ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.panel .panel-body ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.panel .panel-body ul li{
+    display: inline-block;
+    background-color: #1ad1ff;
+    padding: 15px;
+    margin: 10px 5px;
+    width: 15%;
+    border-radius: 5px;
+}
