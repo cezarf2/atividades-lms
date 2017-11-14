@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+
+<body>
+
+    <div class="modal-overlay">
+
+    </div>
+
+    <div class="messenger">
+        <header>
+            <nav class="menu-nav">
+                <h1>
+                    <a href="trabalho2.html">
+                        <span>Tech</span>Talk</a>
+                </h1>
+                <button class="btn-modal">login</button>
+            </nav>
+        </header>
+
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="title">Entrar</h2>
+                <span class="btn modal-close">X</span>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post">
+                    <div class="labels">
+                        <label for="user-id">User Id:</label>
+                        <br/>
+                    </div>
+                    <div class="input-fields">
+                        <input id="user-id" name="user-id" type="text">
+                        <br/>
+                    </div>
+                    <div class="input-submit">
+                        <input class="btn" id="btn-submit" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="friend-list">
+                <nav>
+                    <ul class="contacts">
+                    </ul>
+                </nav>
+            </div>
+            <div class="talk-menu">
+                <header>
+                    <label></label>
+                </header>
+                <div class="messages">
+
+                </div>
+                <form action="" method="post" class="form-message">
+                    <input type="text" name="message" id="message" placeholder="Digite sua mensagem">
+                    <input type="submit" id="btn-submit-message" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/friendList.js"></script>
+    <script src="js/login_logout.js"></script>
+</body>
+
+</html>
