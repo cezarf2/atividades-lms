@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-cerulean.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a id="title-page" class="navbar-brand" href="#">
+                    Loja Virtual
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li id="linkSuasCompras">
+                        <a href="usuario_compras.html" role="button">Suas Compras</a>
+                    </li>
+                    <li id="linkCadastro">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Cadastre-se
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <form action="" method="post" id="form-cadastro" class="navbar-form">
+                                    <div class="form-group has-error">
+                                        <label for="username-cadastro">Username</label>
+                                        <input class="form-control" type="text" name="username-cadastro" id="username-cadastro" placeholder="Username">
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label for="senha-cadastro">Senha</label>
+                                        <input class="form-control" type="password" name="senha-cadastro" id="senha-cadastro" placeholder="Senha">
+                                    </div>
+                                    <input id="submit-cadastro" class="btn btn-primary" type="submit" value="Cadastrar">
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="linkLogin">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Entrar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <form action="" method="post" id="form-login" class="navbar-form">
+                                    <div class="form-group has-error">
+                                        <label for="username-login">Username</label>
+                                        <input class="form-control" type="text" name="username-login" id="username-login" placeholder="Username">
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label for="senha-login">Senha</label>
+                                        <input class="form-control" type="password" name="senha-login" id="senha-login" placeholder="Senha">
+                                    </div>
+                                    <input id="submit-login" class="btn btn-primary" type="submit" value="Login">
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="linkLogout">
+                        <a href="" role="button">Sair</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="linkCestaCompras" class="dropdown">
+                        <a href="" class="dropdown-toggle pull-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Cesta de Compras
+                        </a>
+                        <ul class="dropdown-menu media-list">
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="alert alert-dismissible" id="alert-customize" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Blusa Xadrez Azul e Rosa</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto1-rosa.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>89,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="0">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Blusa Verde</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto2-verde.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>44,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Camisa de Malha Rosa Bebê</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto3-rosa.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>119,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="2">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Camisa Xadrez Verde</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto4-verde.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>89,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="3">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Blusa Rosa</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto5-rosa.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>59,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="4">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <p>Camisa de Malha Verde</p>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/foto6-verde.png" alt="" class="img-responsive">
+                            <form action="">
+                                <div class="form-group col-sm-6 quantidade-produto">
+                                    <label>Quantidade</label>
+                                    <input class="form-control" type="number" name="quantidade">
+                                </div>
+                                <div class="form-group col-sm-6 preco-produto">
+                                    <label>Preço</label>
+                                    <p>R$
+                                        <span>119,90</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 adicionar-produto">
+                                    <input class="btn btn-primary" type="button" value="Adicionar" data-id="5">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/usuariocontroller.js"></script>
+    <script src="js/login_logout.js"></script>
+    <script src="js/cadastro.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/produto.js"></script>
+</body>
+
+</html>
